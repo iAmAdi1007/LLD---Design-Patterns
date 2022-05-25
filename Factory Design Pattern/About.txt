@@ -1,4 +1,4 @@
 Factory Design Pattern : Through this Design Pattern, we enable the client to create instances of their choice without thinking too much about the further changes that can happen while creating instances.
-Through factory design pattern we are having a single entity which would create multiple objects of different class types based on User Requirements rather than the user creating those objects by their own and exposing this service to the user.
+Through factory design pattern we tend to achieve a single entity which would create multiple objects of different class types based on User Requirements(rather than the user creating those objects on their own) & expose this service to the user.
 
 In the Code Example, OSFactory class is being exposed to the Client and the Client based on its requirement can create "Android", "Windows" , "IOS" objects through this class instead of creating these objects separately.
