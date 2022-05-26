@@ -1,0 +1,3 @@
+Builder Design Pattern : This design pattern solves the problem of creating instances when the number of parameters are high. Also this design pattern helps out when we don't want to initialize all the parameters of a Class thus preventing creation of multiple constructors.
+
+Suppose we have a Class Mobile with features like OS, RAM, battery, manufacturer, processor etc. Now if we want to create an instance here where the user can set any number of parameters we would have to define a lot of constructors. Here is where this Design Pattern comes to our rescue.
