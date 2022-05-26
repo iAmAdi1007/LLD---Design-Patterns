@@ -1,0 +1,9 @@
+Singleton Design Pattern : The aim of this design pattern is to create an instance of the class only once i.e. through this pattern we can achieve a requirement where in we are asked to have one and only one instance of a class.
+
+
+
+Steps:
+
+1. Create a static object for the class
+2. Declare a private constructor
+3. Create a public static method to return the instance of the Class
